@@ -5,19 +5,19 @@ Projeto desenvolvido em **Java Swing** para a gestão simplificada de colaborado
 ## 📸 Demonstração
 
 ### Janela Principal e Listagem
-![Listagem de Pessoas](image_c4b795.png)
+![Listagem de Pessoas](pictures/listar.png)
 *Interface principal onde são listados os nomes e moradas inseridos.*
 
 ### Formulário de Inserção
-![Formulário de Dados](image_c4b7b0.png)
+![Formulário de Dados](pictures/inserir.png)
 *Janela de diálogo para introdução de novos dados no sistema.*
 
 ## 🚀 Funcionalidades
 
-* [cite_start]**Menu GestaoRH**: Permite abrir o formulário para adicionar novas pessoas[cite: 37, 38].
-* [cite_start]**Interface Dinâmica**: Utiliza uma `JTextArea` (`txtDados`) para mostrar a informação[cite: 43].
-* [cite_start]**Encapsulamento**: Os dados são tratados através da classe `Pessoa` no pacote `dataModel`[cite: 66].
-* [cite_start]**Diálogos de Confirmação**: Sistema para validar a saída do programa com segurança[cite: 36].
+**Menu GestaoRH**: Permite abrir o formulário para adicionar novas pessoas[cite: 37, 38].
+**Interface Dinâmica**: Utiliza uma `JTextArea` (`txtDados`) para mostrar a informação[cite: 43].
+**Encapsulamento**: Os dados são tratados através da classe `Pessoa` no pacote `dataModel`[cite: 66].
+**Diálogos de Confirmação**: Sistema para validar a saída do programa com segurança[cite: 36].
 
 ## 📂 Estrutura Técnica
 
