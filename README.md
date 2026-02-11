@@ -1,31 +1,32 @@
-# Gestão de Recursos Humanos
+# 🏢 Gestão de Recursos Humanos
 
-Projeto desenvolvido em **Java Swing** para a gestão simplificada de colaboradores.
+Projeto desktop desenvolvido em **Java Swing** para a gestão simplificada e listagem de colaboradores.
+
+---
 
 ## 📸 Demonstração
 
-### Janela Principal e Listagem
-*Interface principal onde são listados os nomes e moradas inseridos.*
-![Listagem de Pessoas](pictures/listar.png)
+| Janela Principal e Listagem | Formulário de Inserção |
+| :---: | :---: |
+| <img src="pictures/listar.png" width="400" alt="Listagem"/> | <img src="pictures/inserir.png" width="300" alt="Inserção"/> |
+| *Interface principal com listagem em JTextArea* | *Janela modal para entrada de novos dados* |
 
-
-### Formulário de Inserção
-*Janela de diálogo para introdução de novos dados no sistema.*
-![Formulário de Dados](pictures/inserir.png)
-
+---
 
 ## 🚀 Funcionalidades
 
-**Menu GestaoRH**: Permite abrir o formulário para adicionar novas pessoas.
-**Interface Dinâmica**: Utiliza uma `JTextArea` (`txtDados`) para mostrar a informação.
-**Encapsulamento**: Os dados são tratados através da classe `Pessoa` no pacote `dataModel`.
-**Diálogos de Confirmação**: Sistema para validar a saída do programa com segurança.
+* **Menu GestaoRH**: Acesso rápido ao formulário de introdução de novos colaboradores.
+* **Interface Dinâmica**: Atualização imediata da informação através de uma `JTextArea` dedicada.
+* **Encapsulamento**: Gestão de dados robusta utilizando a classe `Pessoa` no pacote `dataModel`.
+* **Segurança de Fecho**: Sistema de validação com diálogos de confirmação para evitar a saída acidental do programa.
 
 ## 📂 Estrutura Técnica
 
-**`uI.desktop`**: Contém a lógica visual (`FrmStarted` e `JDialogEditarPessoa`).
-**`dataModel`**: Contém a estrutura de dados (`Pessoa.java`).
-**Sem dependências**: Utiliza apenas bibliotecas nativas do Java (Swing/AWT).
+O projeto foi organizado para separar a interface da lógica de dados:
+
+* **`uI.desktop`**: Contém a lógica visual e os componentes de interface (`FrmStarted` e `JDialogEditarPessoa`).
+* **`dataModel`**: Contém a estrutura de dados e objetos de negócio (`Pessoa.java`).
+* **Sem Dependências Externas**: Construído totalmente com bibliotecas nativas do ecossistema Java (**Swing/AWT**).
 
 ---
-*Trabalho prático realizado no âmbito da formação de Programador Informático.*
+> 💡 **Nota:** Trabalho prático realizado no âmbito da formação de Programador Informático.
